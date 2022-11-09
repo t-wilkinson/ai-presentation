@@ -10,3 +10,4 @@ package
 .output
 env
 .ipynb_checkpoints
+__pycache__
