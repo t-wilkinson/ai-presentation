@@ -2,6 +2,7 @@
     import Slide from "$lib/Slide.svelte";
     export let title = '';
     export let description = '';
+    export let subtitle = "Application";
 </script>
 
 <Slide>
@@ -10,7 +11,7 @@
             <p
                 class="font-sans font-bold text-sm text-blue-600 tracking-widest uppercase"
             >
-                Application
+            {subtitle}
             </p>
             <h1
                 class="font-sans font-black text-neutral-900 text-5xl text-left mt-8 tracking-tighter"
